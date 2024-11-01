@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(0, 0, 0, 0.979);
+    width: auto;
+}
+
+#countlabel {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    color: white;
+}
+
+#btncontainer {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    gap: 30%;
+}
+
+.button  {
+    margin: 20px;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(rgba 255, 255, 255, 0.5);
+    border-radius: 3px;
+    transition: background-color 0.15s;
+}
+
+.button:hover {
+    background-color: rgb(133, 111, 133);
+}
+
+
+.second {
+    text-align: center;
+    margin: 50px 20px;
+}
